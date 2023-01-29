@@ -1,0 +1,26 @@
+.homeContainer {
+  padding: 0 9%;
+}
+.homeHeader {
+  text-align: center;
+  margin: 4%;
+  letter-spacing: 0.3rem;
+}
+.homeHeader > h1 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+.homeBanner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+.homeBannerLeft > p {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 25px;
+}
+.homeBannerRight > img {
+  height: 70vh;
+}

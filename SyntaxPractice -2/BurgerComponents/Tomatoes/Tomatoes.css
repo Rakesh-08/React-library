@@ -1,0 +1,12 @@
+.Tomatoes {
+  display: flex;
+  padding: 0 10px;
+}
+.tomato {
+  background-color: red;
+  height: 18px;
+  width: 100%;
+  margin: auto;
+  border-radius: 12px;
+  border: 2px solid red;
+}

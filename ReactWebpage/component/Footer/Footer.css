@@ -1,0 +1,19 @@
+.footerContainer {
+  background-color: #064ea7;
+  padding: 20px 9%;
+}
+.footerHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footerHeaderLeft {
+  font-size: 1rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+h1 {
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: center;
+}
