@@ -1,0 +1,58 @@
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.singleTour {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  margin: 2rem 0;
+  box-shadow: 0 5px 15px black;
+}
+.singleTour img {
+  width: 100%;
+  height: 20em;
+  object-fit: cover;
+}
+.footer {
+  padding: 0 2%;
+}
+.tourInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 2em;
+}
+
+.tourPrice {
+  background-color: rgb(192, 209, 214);
+  color: blue;
+  padding: 0.25rem 0.5rem;
+}
+.singleTour button {
+  text-transform: capitalize;
+  background: transparent;
+  border: transparent;
+  color: rgb(18, 122, 156);
+  cursor: pointer;
+  font-size: 1em;
+  padding: 0.35em;
+}
+.deleteBtn {
+  display: block;
+  margin: 1rem auto;
+  width: 200px;
+  cursor: pointer;
+  letter-spacing: 0.2em;
+}
+.underline{
+  width:7em ;
+  height: .25em ;
+  background-color:tomato;
+  margin: 0 auto;
+}

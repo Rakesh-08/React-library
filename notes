@@ -1,0 +1,48 @@
+// install react dev tools extension in chrome to visualize the process;
+// install redux dev toolkit extension in chrome to visualize the process;
+
+// install npm i react-router-dom for multi-page react application;
+// install npm i redux to use redux
+// install npm i react-redux to connect redux to react application
+//install npm i redux-devtools-extension to connect devtool to project;
+// install npm i cors for handling cors policy of browser;
+
+//import React from "react";
+
+// function based component
+
+// function App(){
+//   return(
+//     <div>
+//       <h1> hello everyone</h1>
+//       <p> welcome to react classes</p>
+//       </div>
+//   )
+// }
+
+// export default App;
+
+// class based component
+/*
+class App extends React.Component{
+  constructor(){
+    super()
+  }
+render(){
+  const {key1,key2}=this.props  object destructuring
+  return(
+    <div> 
+          <h1> hello everyone</h1>
+          <p> welcome to react classes</p>
+          </div>
+  )
+
+  }
+}
+export default App;
+
+*/
+
+// Props is an object that is used to pass data from parent to chils component but the reverse is not true.
+//  props is a property/attribute and internal data of components
+// props is immutable (read-only)
