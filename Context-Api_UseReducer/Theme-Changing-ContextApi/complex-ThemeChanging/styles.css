@@ -1,0 +1,17 @@
+.App-Header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.button-container {
+  background-color: green;
+  height: 50px;
+  width: 200px;
+  color: white;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  cursor: pointer;
+}

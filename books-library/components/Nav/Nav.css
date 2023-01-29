@@ -1,0 +1,10 @@
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: gray;
+  color: white;
+  height: 60px;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}

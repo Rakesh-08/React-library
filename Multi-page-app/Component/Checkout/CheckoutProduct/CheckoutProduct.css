@@ -1,0 +1,30 @@
+.checkoutProduct {
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 5px 5px 10px rgb(117, 112, 112);
+  border-radius: 2%;
+  background-color: white;
+}
+
+.checkoutProductImage {
+  width: 100px;
+  height: 200px;
+  object-fit: contain;
+}
+.checkoutProductRating {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100px;
+  margin-bottom: 10px;
+  color: orange;
+  font-size: 1.7rem;
+}
+
+.quantityContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.itemQuantity {
+  display: flex;
+}
