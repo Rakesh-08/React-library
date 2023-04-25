@@ -1,7 +1,0 @@
-.boardRow {
-  display: flex;
-  flex-flow: row wrap;
-}
-.board {
-  margin: 40px;
-}

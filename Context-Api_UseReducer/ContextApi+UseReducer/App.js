@@ -5,7 +5,7 @@ import { createContext, useContext, useReducer, useState } from "react";
 const CounterContext = createContext();
 const initialState = 0;
 const reducer = (state, action) => {
-  console.log(action);
+  
   switch (action.type) {
     case "increment by userInput":
       return state + action.payload;

@@ -43,6 +43,6 @@ export default App;
 
 */
 
-// Props is an object that is used to pass data from parent to chils component but the reverse is not true.
+// Props is an object that is used to pass data from parent to child component but the reverse cannot be true.
 //  props is a property/attribute and internal data of components
 // props is immutable (read-only)

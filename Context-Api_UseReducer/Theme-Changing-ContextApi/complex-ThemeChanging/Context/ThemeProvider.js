@@ -11,13 +11,13 @@ const Themes = {
   },
 };
 
-const intialState = {
+const initialState = {
   dark: false,
   theme: Themes.light,
   toggle: () => {},
 };
 
-const ThemeContext = createContext(intialState);
+const ThemeContext = createContext(initialState);
 
 export default function ThemeProvider({ children }) {
   // default theme would be not dark

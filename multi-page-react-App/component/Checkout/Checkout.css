@@ -1,0 +1,77 @@
+.emptyCart{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.checkoutPart{
+    margin: 10px 20px;
+    display: flex;
+}
+
+@media screen and (max-width:700px){
+    .checkoutPart{
+          display: block;
+    }
+   .checkoutProduct{
+    min-width: 60vw
+   }
+   .checkoutPrice{
+    position: static !important;
+  
+   }
+  
+}
+ .checkoutElements{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    flex: 0.6;
+    
+}
+
+.checkoutPrice{
+    padding: 10px;
+   position: absolute;
+   right:4em;
+    top: 9em;
+    border: 2px solid rgb(162, 153, 153);
+    border-radius: 6%;
+    min-width: 30%;
+    height: fit-content;    
+    text-align: center;
+}
+
+.checkoutPrice h3{
+    text-decoration: underline;
+    margin: 10px auto;
+    font-style: italic;
+    color:green
+}
+
+.charges{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.charges h4{
+   font-style: oblique;
+   color: rgb(89, 84, 84);
+}
+
+.finalPrice{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+    background-color: beige;
+    border-radius:20px ;
+    border-top: 2px solid black;
+    
+}
+
+

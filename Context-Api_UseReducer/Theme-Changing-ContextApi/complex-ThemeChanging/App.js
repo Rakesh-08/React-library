@@ -3,7 +3,7 @@ import { ThemeContextValue } from "./Context/ThemeProvider";
 
 export default function App() {
   const { Theme, dark, toggle } = ThemeContextValue();
-  console.log(dark);
+  
 
   return (
     <div className="App">

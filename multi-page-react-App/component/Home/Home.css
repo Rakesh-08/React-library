@@ -1,0 +1,19 @@
+.homeRows {
+  display: flex;
+   justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+   ;
+} 
+ .homeRow {
+  display: flex;
+ width: 300px;
+} 
+.footer{
+  background-color: rgb(177, 166, 166);
+  height: 200px;
+  width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}

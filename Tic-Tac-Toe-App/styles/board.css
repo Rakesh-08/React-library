@@ -1,0 +1,32 @@
+.boardRow {
+  display: flex;
+}
+.board {
+  margin: 40px;
+}
+.resetButton{
+  margin: 20px auto;
+  width: 3rem;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.boardWrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.movesHistory{
+  position: relative;
+  width: 40%;
+}
+
+.movesHistoryList{
+  position: absolute;
+  left:10px;
+  top: 60px;
+}
+
+.winningBox{
+  background-color: red;
+}
+

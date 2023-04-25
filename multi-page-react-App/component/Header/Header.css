@@ -1,0 +1,38 @@
+.header {
+  background-color: gray;
+  height: 60px;
+  display: flex;
+  justify-content: space-evenly;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+.headerContainer {
+  flex: 0.9;
+  display: flex;
+  align-items: center;
+}
+.headerImage {
+  height: 40px;
+  margin: auto 20px;
+}
+.searchBox {
+  display: flex;
+  width: 90%;
+}
+.searchBox > input {
+  flex: 1;
+  border: none;
+  padding: 10px;
+  outline: 0;
+}
+
+.headerRight {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.headerOption_basket {
+  font-weight: bolder;
+  cursor: pointer;
+}
