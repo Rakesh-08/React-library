@@ -1,0 +1,25 @@
+{
+  "Books": [
+    {
+      "title": "In Search of Lost Time",
+      "author": "Marcel Proust",
+      "genre": "philosiphcal",
+      "summary": "Swann's Way, the first part of A la recherche de temps perdu, Marcel Proust's seven-part cycle, was published in 1913.",
+      "id": 2
+    },
+    {
+      "title": "A PORTRAIT OF THE ARTIST AS A YOUNG MAN",
+      "author": "James Joyce",
+      "genre": "medical",
+      "summary": "Published in 1916, James Joyce’s semiautobiographical tale of his alter ego, Stephen Dedalus, is a coming-of-age story like no other.",
+      "id": 3
+    },
+    {
+      "title": "",
+      "author": "Rakesh Mandal",
+      "genre": "anime",
+      "summary": "fun banter between two friendly enemies",
+      "id": 5
+    }
+  ]
+}

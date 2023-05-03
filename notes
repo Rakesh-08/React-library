@@ -6,6 +6,32 @@
 // install npm i react-redux to connect redux to react application
 //install npm i redux-devtools-extension to connect devtool to project;
 // install npm i cors for handling cors policy of browser;
+// install npm i @emotion/styled for styled components
+// install npm i react-app-rewired or npm i @craco/craco to share components between projects
+
+
+  /*
+   Git and Github
+
+   // install git and git config --global user.name and user.email in terminal
+   // git init (create new repo)
+   // git status
+   // git add . (to add the current directory use . or use individual file name from current directory for specific cases)
+   // git commit -m "message"
+   //  git push --set-upstream origin main
+   
+    To change the branch
+
+    // git checkout -b new branch name
+    and follow the above steps to change in the github as well
+
+   related To pull request
+
+    // git revert commit_id to revert the changes made in pull request by merging two repos
+
+    // git checkout main to get back into main branch and then  run git pull command to make changes applied on the local as well
+  */
+
 
 //import React from "react";
 
@@ -43,6 +69,6 @@ export default App;
 
 */
 
-// Props is an object that is used to pass data from parent to child component but the reverse cannot be true.
+// Props is an object that is used to pass data from parent to chils component but the reverse is not true.
 //  props is a property/attribute and internal data of components
 // props is immutable (read-only)

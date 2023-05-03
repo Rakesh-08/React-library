@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Event Bubbling</title>
+
+    <style>
+        #grandParent{
+            height: 400px; 
+            width: 400px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(210, 83, 148);
+        }
+        #parent{
+            height: 260px; 
+            width: 260px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: green;
+            
+        }
+        #child{
+            height: 150px; 
+            width: 150px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+ <h1 style="text-align: center;">Events</h1> 
+    <div  id="grandParent">
+        <div id="parent">
+            <div id="child"> </div>
+        </div>
+    </div> 
+
+==========================================
+<!-- 
+<div>
+    <ol style="list-style: none;" id="categories">
+        <li id="fashion">Fashion</li>
+        <li id="electronics">Electronics</li>
+        <li id="clothes">Clothes</li>
+    </ol>
+</div>
+     -->
+
+
+
+
+    <!-- <script src="Event-delegation.js"></script> -->
+
+     <script src="Event-bubblingAndCapturing.js"></script>
+
+    <!-- <script async src="script.js"></script>  
+    <script defer src="script.js"></script>   // async and defer both will load js files asynchronously but async doesn't maintain the order of execution while defer do take care of that
+     -->
+</body>
+</html>
